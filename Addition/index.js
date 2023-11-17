@@ -11,7 +11,7 @@ module.exports = function (context, req)
         sum = num1 + num2;
         context.res =
         {
-            // status: 200, /* Defaults to 200 */
+            // status: 300, /* Defaults to 200 */
             body: sum
         };
     }
